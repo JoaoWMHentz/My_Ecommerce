@@ -5,6 +5,9 @@
     justify-content: space-between;
     align-items: center;
     margin: 10 auto;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0;
+    width: 100%;
 }
 #Logo2 {
     margin-top: 28px;
@@ -90,4 +93,8 @@
     display: flex;
     justify-content:baseline;
     align-items: center;
+    height: 62px auto;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 62px;
+    width: 100%;
 }

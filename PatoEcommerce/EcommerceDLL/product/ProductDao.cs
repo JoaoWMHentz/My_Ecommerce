@@ -18,20 +18,15 @@ namespace OpenEcommerceDLL.product
 
         private Product SaveImage(Product product)
         {
-
             foreach (ProductImage i in product.Images)
             {
-                bool exists = false;
                 using (DBSave save = new DBSave(con, ProductImage.table))
                 {
-                    if (product.ProductId > 0)
-                    {
-                        save.addKey("codImg", i.imageId);
-                        exists = true;
-                    }
+                    i.ImageType = Converter.getImageTypeFromHtmlBase64(i.Image);
                     save.addKey("codProduto", product.ProductId);
-                    save.addPar("imagem", Convert.FromBase64String(i.Image));
-                    save.save(exists);
+                    save.addPar("imagem", Convert.FromBase64String(i.Image.Replace($"data:image/{i.ImageType};base64,", "")));
+                    save.addPar("imageType", i.ImageType);
+                    save.deleteInsert();
                 }
             }
             return product;
@@ -54,11 +49,13 @@ namespace OpenEcommerceDLL.product
                 save.addPar("nome", product.Name);
                 save.addPar("descricao", product.Description);
                 save.addPar("codEstadoUso", product.State.ProductUseStateId);
+                save.addPar("preco", product.Price);
+                save.addPar("quantidade", product.Amount);
                 save.save(exists);
             }
             if (!exists)
             {
-                DbHelper.GetLastId(Product.table, "codProduto", con);
+                product.ProductId = DbHelper.GetLastId(Product.table, "codProduto", con);
             }
             product = SaveImage(product);
             return product;
@@ -66,14 +63,14 @@ namespace OpenEcommerceDLL.product
 
         private Product getimagesProduct(Product product)
         {
-            using (IDataReader dr = DbHelper.ReturnDataReader($"SELECT imagem, codImg FROM {ProductImage.table} WHERE codProduto = {product.ProductId}", con))
+            using (IDataReader dr = DbHelper.ReturnDataReader($"SELECT imagem, imageType FROM {ProductImage.table} WHERE codProduto = {product.ProductId}", con))
             {
                 while (dr.Read())
                 {
-                    string base64Encoded = Convert.ToBase64String((byte[])dr["imagem"]);
+                    string base64Encoded = Converter.tryToBase64String((byte[])dr["imagem"]);
                     ProductImage i = new ProductImage();
-                    i.Image = Converter.tryToString(dr["image"]);
-                    i.imageId = Converter.tryToInt(dr["codImg"]);
+                    i.ImageType = Converter.tryToString(dr["imageType"]);
+                    i.Image = Converter.tryToString($"data:image/{i.ImageType};base64," + base64Encoded);
                     product.Images.Add(i);
                 }
             }
@@ -96,7 +93,8 @@ namespace OpenEcommerceDLL.product
             p.Type.Description = Converter.tryToString(dr["nomeTipo"]);
             p.SalesPerson.UserId = Converter.tryToString(dr["codVendedor"]);
             p.SalesPerson.UserId = Converter.tryToString(dr["nomeVendedor"]);
-            
+            p.Amount = Converter.tryToDouble(dr["quantidade"]);
+            p.Price = Converter.tryToDouble(dr["preco"]);
             return p;
         }
 
@@ -115,7 +113,9 @@ namespace OpenEcommerceDLL.product
             sql.AppendLine(", PROD.codTipo");
             sql.AppendLine(", TIPO.nome AS nomeTipo");
             sql.AppendLine(", PROD.codVendedor");
-            sql.AppendLine(", U.nome AS nomeVendedor");
+            sql.AppendLine(", U.name AS nomeVendedor");
+            sql.AppendLine(", PROD.preco");
+            sql.AppendLine(", PROD.quantidade");
             sql.AppendLine($"FROM {Product.table} PROD");
             sql.AppendLine("LEFT JOIN ProdutoCategoria CAT");
             sql.AppendLine("ON CAT.categoryId = PROD.codCategoria");
@@ -125,8 +125,8 @@ namespace OpenEcommerceDLL.product
             sql.AppendLine("ON MARCA.codMarca = PROD.codMarca");
             sql.AppendLine("LEFT JOIN ProdutoTipo TIPO");
             sql.AppendLine("ON TIPO.codTipo = PROD.codTipo");
-            sql.AppendLine("LEFT JOIN Usuario U");
-            sql.AppendLine("ON U.usuario = PROD.codVendedor");
+            sql.AppendLine("LEFT JOIN AcessUser U");
+            sql.AppendLine("ON U.userId = PROD.codVendedor");
             sql.AppendLine("WHERE 1 = 1");
             if (pf.ProductIds.Count > 0)
                 {

@@ -1,20 +1,27 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using OpenEcommerceDLL.product;
+using System.Data;
+
 namespace WebBiblioteca_Api
 {
-
-    public class ProdutoController : Controller
+    [Route("api/[controller]")]
+    [ApiController]
+    public class ProdutoController : ControllerBase
     {
-        [Route("api/produto/get")]
-        [HttpGet()]
+        [HttpGet]
+        [Route("getProduct")]
+        [Authorize(Roles = "Admin")]
         public List<Product> Get()
         {
             ProductDao Dao = new ProductDao();
             var filtro = new ProductFilter();
             return Dao.GetProducts(filtro);
         }
-        [Route("api/produto/post")]
+
         [HttpPost]
+        [Route("postProduct")]
+        [Authorize(Roles = "Admin")]
         public Product Create([FromBody] Product produto)
         {
             ProductDao Dao = new ProductDao();

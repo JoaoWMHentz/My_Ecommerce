@@ -163,16 +163,13 @@ namespace Helpers.connection
                     }
                     else if (at.GetType() == typeof(SaveAttribute) || at.GetType() == typeof(KeyAutoIncrementAttribute) || at.GetType() == typeof(KeyAttribute))
                     {
-                        if (prop.GetValue(obj, null) != null)
+                        if (columnName == "")
                         {
-                            if (columnName == "")
-                            {
-                                select.addPar(prop.Name.ToLower(), Converter.tryToString(prop.GetValue(obj, null)), "=");
-                            }
-                            else
-                            {
-                                select.addPar(columnName, Converter.tryToString(prop.GetValue(obj, null)), "=");
-                            }
+                            select.addPar(prop.Name.ToLower(), Converter.tryToString(prop.GetValue(obj, null)), "=");
+                        }
+                        else
+                        {
+                            select.addPar(columnName, Converter.tryToString(prop.GetValue(obj, null)), "=");
                         }
                     }
                 }
@@ -181,7 +178,10 @@ namespace Helpers.connection
 
             using (IDataReader dr = DbHelper.ReturnDataReader(select.getSelect(), con))
             {
-                returnObj.Add( dataReaderLineToObject(dr, obj));
+                while (dr.Read())
+                {
+                    returnObj.Add(dataReaderLineToObject(dr, obj));
+                }
             }
             return returnObj;
         }

@@ -27,7 +27,7 @@ namespace Helpers.converter
             }
             catch (Exception)
             {
-                return String.Empty;
+                return string.Empty;
             }
         }
 
@@ -41,7 +41,48 @@ namespace Helpers.converter
             {
                 return string.Empty;
             }
+        }
 
+        public static double tryToDouble(object value)
+        {
+            try
+            {
+                return Convert.ToDouble(value);
+            }
+            catch (Exception)
+            {
+
+                return 0;
+            }
+        }
+
+        public static string StringPiece(string str, string separator = " - ", int part = 1)
+        {
+            try
+            {
+                return str.Split(separator)[part - 1];
+            }
+            catch (Exception)
+            {
+                return string.Empty;
+            }
+        }
+
+        public static string getImageTypeFromHtmlBase64(string base64)
+        {
+            //Base 64: data:image/jpeg;base64,{data}
+            try
+            {
+                string type = StringPiece(base64, ",");
+                type = type.Replace("data:image/", "");
+                type = type.Replace(";base64", "");
+                type = type.Trim();
+                return type;
+            }
+            catch (Exception)
+            {
+                return string.Empty;
+            }
         }
     }
 }

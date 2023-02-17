@@ -2570,11 +2570,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj",
+      "projectUniqueName": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj",
       "projectName": "Helpers",
-      "projectPath": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj",
+      "projectPath": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj",
       "packagesPath": "C:\\Users\\joaow\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\PatoEcommerce\\Helpers\\obj\\",
+      "outputPath": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\Helpers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joaow\\AppData\\Roaming\\NuGet\\NuGet.Config",

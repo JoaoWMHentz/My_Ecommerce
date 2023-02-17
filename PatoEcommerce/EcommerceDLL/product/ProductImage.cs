@@ -9,8 +9,8 @@ namespace OpenEcommerceDLL.product
     public class ProductImage
     {
         public static string table = "ProdutoImage";
-
-        public int imageId { get; set; }
         public string Image { get; set; }
+
+        public string ImageType { get; set; }
     }
 }

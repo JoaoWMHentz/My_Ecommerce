@@ -14,7 +14,7 @@ export class ProductService {
 
   public GetProduct():Observable<Product[]> {
     try {
-        var Products = this.http.get(Service.url + this.pathBase);
+        return this.http.get<Product[]>(Service.url + this.pathBase);
     } catch (error) {
         throw error;
     }

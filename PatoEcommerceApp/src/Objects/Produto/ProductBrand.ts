@@ -1,19 +1,11 @@
 import { ProductCategory } from "./ProductCategory"
 
-export class ProductBrand {
+export interface ProductBrand {
+    brandId: number;
 
-    constructor(brandId: number, category: ProductCategory, name: string, description: string){
-        this.BrandId = brandId;
-        this.Category = category;
-        this.Name = name;
-        this.Description = description;
-    } 
+    category: ProductCategory;
 
-    BrandId: number = 0;
+    name: string;
 
-    Category: ProductCategory = new ProductCategory;
-
-    Name: string = "";
-
-    Description: string = "";
+    description: string;
 }

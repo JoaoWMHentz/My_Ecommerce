@@ -41,5 +41,9 @@ namespace OpenEcommerceDLL.product
         public ProductUseState State { get; set; }
 
         public List<ProductImage> Images { get; set; }
+
+        public double Price { get; set; }
+
+        public double Amount { get; set; }
     }
 }

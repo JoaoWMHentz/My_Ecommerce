@@ -31,7 +31,7 @@ namespace Helpers.connection
             sql.AppendLine("WHERE 1 = 1");
             foreach (ParameterSelect parametro in Parametros)
             {
-                if ((converter.Converter.tryToString(parametro.Value) != "") && (converter.Converter.tryToInt(parametro.Value) != 0))
+                if ((converter.Converter.tryToString(parametro.Value) != "") || (converter.Converter.tryToInt(parametro.Value) != 0))
                 {
                     sql.AppendLine($"AND {parametro.Column} {parametro.Operator} {DbHelper.toSqlString(converter.Converter.tryToString(parametro.Value))}");
                 }

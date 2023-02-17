@@ -1,5 +1,5 @@
-export class ProductUseState {
-    UseStateId: number = 0;
+export interface ProductUseState {
+    UseStateId: number;
 
-    Description: string = "";
+    Description: string;
 }

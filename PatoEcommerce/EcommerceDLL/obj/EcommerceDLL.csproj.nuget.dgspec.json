@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\PatoEcommerce\\EcommerceDLL\\EcommerceDLL.csproj": {}
+    "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\EcommerceDLL\\EcommerceDLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\PatoEcommerce\\EcommerceDLL\\EcommerceDLL.csproj": {
+    "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\EcommerceDLL\\EcommerceDLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\PatoEcommerce\\EcommerceDLL\\EcommerceDLL.csproj",
+        "projectUniqueName": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\EcommerceDLL\\EcommerceDLL.csproj",
         "projectName": "EcommerceDLL",
-        "projectPath": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\PatoEcommerce\\EcommerceDLL\\EcommerceDLL.csproj",
+        "projectPath": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\EcommerceDLL\\EcommerceDLL.csproj",
         "packagesPath": "C:\\Users\\joaow\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\PatoEcommerce\\EcommerceDLL\\obj\\",
+        "outputPath": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\EcommerceDLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joaow\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj": {
-                "projectPath": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj"
+              "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj": {
+                "projectPath": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj"
               }
             }
           }
@@ -43,6 +43,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.26.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.26.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,14 +77,14 @@
         }
       }
     },
-    "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj": {
+    "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj",
+        "projectUniqueName": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj",
         "projectName": "Helpers",
-        "projectPath": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj",
+        "projectPath": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj",
         "packagesPath": "C:\\Users\\joaow\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\PatoEcommerce\\Helpers\\obj\\",
+        "outputPath": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\Helpers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joaow\\AppData\\Roaming\\NuGet\\NuGet.Config",

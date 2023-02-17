@@ -5,37 +5,26 @@ import { ProductUseState } from "./ProductUseState";
 import { ProductBrand } from "./ProductBrand";
 import { ProductType } from "./ProductType";
 
-export class Product {
+export interface Product {
+    productId: number
 
-    constructor(productId: number, name: string, salesPerson: User, category: ProductCategory,
-                brand: ProductBrand, type: ProductType, description: string, state: ProductUseState,  images: Array<ProductImage>)
-    {
-        this.ProductId = productId;
-        this.Name = name;
-        this.SalesPerson = salesPerson;
-        this.Category = category;
-        this.Brand = brand;
-        this.Type = type;
-        this.Description = description;
-        this.State = state    
-        this.Images = images;
-    }
+    name: string
 
-    ProductId: number
+    salesPerson: User;
 
-    Name: string
+    category: ProductCategory;
 
-    SalesPerson: User = new User;
+    brand: ProductBrand;
 
-    Category: ProductCategory = new ProductCategory;
+    type: ProductType;
 
-    Brand: ProductBrand;
+    description: string;
 
-    Type: ProductType = new ProductType;
+    state: ProductUseState;
 
-    Description: string;
+    images: Array<ProductImage>;
 
-    State: ProductUseState = new ProductUseState;
+    price: number;
 
-    Images: Array<ProductImage>;
+    amount: number;
 }
