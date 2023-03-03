@@ -1,5 +1,5 @@
 import { ProductImage } from "./ProductImage";
-import { User } from "../User";
+import { User } from "../User/User";
 import { ProductCategory } from "./ProductCategory"
 import { ProductUseState } from "./ProductUseState";
 import { ProductBrand } from "./ProductBrand";

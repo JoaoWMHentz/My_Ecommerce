@@ -36,15 +36,16 @@ namespace ApiEcommerce.Controllers
                     var token = GenerateToken(user);
                     return Ok(token);
                 }
-                else 
+                else
                 {
-                    return NotFound("Password is incorrect!");
+                    return Unauthorized("Password is incorrect!");
                 }
 
             }
             else
             {
-                return NotFound("User not found");
+              
+                return Unauthorized("User not found");
             }
             
         }

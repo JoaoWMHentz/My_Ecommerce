@@ -11,7 +11,7 @@ namespace WebBiblioteca_Api
     {
         [HttpGet]
         [Route("getProduct")]
-        [Authorize(Roles = "Admin")]
+        [AllowAnonymous]
         public List<Product> Get()
         {
             ProductDao Dao = new ProductDao();

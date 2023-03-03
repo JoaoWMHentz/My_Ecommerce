@@ -1,7 +1,7 @@
 
 
 .categoriaBorder{
-    background-color: aliceblue;
+        background-color: lightsteelblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,7 +12,7 @@
     text-align: center;
     font-weight: 400;
     font-size: medium;
-    color: #007cc3;
+    color: rgb(50, 50, 50);
 }
 
 #Foto img{
@@ -27,7 +27,7 @@
     padding: 0px;
     border: 0px solid #000;
     display: inline-flex;
-    background-color: aliceblue;
+        background-color: lightsteelblue;
 
 }
 

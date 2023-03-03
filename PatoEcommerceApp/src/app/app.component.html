@@ -1,4 +1,28 @@
-<app-nav></app-nav>
-<div id="page">
-    <app-login></app-login>
+<div id="Border">
+    <div id="Logo" class="DivNav">
+        <a routerLink="Products">
+            <img id="Logo1" src="../../assets/Logos/LogoSemTexto.png" height="40" width="40">
+        </a>
+        <h3 id="Logo2">Commerce</h3>
+    </div>
+    <div id="DivPesquisa" class="DivNav">
+        <input type="text" class="css-input" id="TxtPesquisa"/>
+        <button type="text" id="btnPesquisa" class="btnNav"><span></span></button> 
+    </div>
+    <div id="Rigth" class="DivNav">
+        <ul>
+                <a routerLink="login" id="BtnMinhaConta" class="btnNav">Minha Conta</a>
+                <a id="BtnMeusAnucios" class="btnNav">Anunciar</a>
+                <button id="BtnCategorias" (click)="show = !show" class="btnNav">Categorias<span></span></button>
+        </ul>
+    </div>
 </div>
+<div *ngIf="show">
+    <div id="BackCategoria">
+        <app-categoria name="Jogos" img="../../assets/Tests/Categoria.jpg"></app-categoria>
+        <app-categoria name="Livros" img="../../assets/Tests/Livros.png"></app-categoria>
+        <app-categoria name="Software" img="../../assets/Tests/software.png"></app-categoria>
+        <app-categoria name="Software" img="../../assets/Tests/software.png"></app-categoria>
+    </div>
+</div>
+<router-outlet></router-outlet>

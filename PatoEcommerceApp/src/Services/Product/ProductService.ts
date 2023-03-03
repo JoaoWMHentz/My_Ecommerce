@@ -8,7 +8,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class ProductService {
-  pathBase: string = "/api/produto/get";
+  pathBase: string = "/api/Produto/getProduct";
 
   constructor(private http: HttpClient) { }
 
