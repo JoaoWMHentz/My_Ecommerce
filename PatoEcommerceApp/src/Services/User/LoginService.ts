@@ -14,11 +14,6 @@ export class LoginService {
   constructor(private http: HttpClient) { }
 
   public GetProduct(login: UserLogin):Observable<string> {
-    try {
         return this.http.post<string>(Service.url + this.pathBase, login);
-    } catch (error) {
-        if (error. === 404) {
-    }
-    
   }
 }
