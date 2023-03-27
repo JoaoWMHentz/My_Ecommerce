@@ -13,7 +13,9 @@ export class LoginService {
 
   constructor(private http: HttpClient) { }
 
-  public GetProduct(login: UserLogin):Observable<string> {
+  public Login(login: UserLogin):Observable<string> {
         return this.http.post<string>(Service.url + this.pathBase, login);
   }
+
+  
 }

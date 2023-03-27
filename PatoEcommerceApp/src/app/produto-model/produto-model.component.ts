@@ -14,7 +14,10 @@ export class ProdutoModelComponent implements OnInit {
   }
   
   ngOnInit(): void {
-    this.service.GetProduct().subscribe(products => { this.source = products; console.log(products) })
+    this.service.GetProduct().subscribe(products => {
+      this.source = products; console.log(products)
+     },error => alert("Erro ao carregrar produtos: " + error.message)
+    )
   }
 
 }

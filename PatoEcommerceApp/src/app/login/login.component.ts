@@ -23,7 +23,7 @@ export class LoginComponent implements OnInit {
   onSubmit(){
     console.log(this.formulario.value);
     let login: UserLogin = {...this.formulario.value}
-    this.service.GetProduct(login).subscribe(products => { console.log(products) })
+    this.service.Login(login).subscribe(products => { console.log(products) })
   }
 
 }
