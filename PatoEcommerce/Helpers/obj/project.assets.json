@@ -2570,11 +2570,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj",
+      "projectUniqueName": "C:\\Users\\joaow\\Source\\Repos\\JoaoWitu22\\My_Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj",
       "projectName": "Helpers",
-      "projectPath": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj",
+      "projectPath": "C:\\Users\\joaow\\Source\\Repos\\JoaoWitu22\\My_Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj",
       "packagesPath": "C:\\Users\\joaow\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\Helpers\\obj\\",
+      "outputPath": "C:\\Users\\joaow\\Source\\Repos\\JoaoWitu22\\My_Ecommerce\\PatoEcommerce\\Helpers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joaow\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2624,7 +2624,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -14,7 +14,7 @@ namespace Helpers.connection
         //Construtor
         public Connection()
         {
-            sqlConnection.ConnectionString = @"Data Source=DESKTOP-0K9JLMM\SQLEXPRESS;Initial Catalog=OpenEcomerce;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            sqlConnection.ConnectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=Ecommerce;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         }
 
         // conectar

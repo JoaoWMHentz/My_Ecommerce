@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qgt3pFvtBE7CB3fSZeYYRiQ1MQbwXm3lNCHvRpPWLXijb8CTw/9bp/7poCOIozsIlLTJl1Mq5waS0CUz7QBBHw==",
+  "dgSpecHash": "Btoi18ivF+TJ6TK+o2imuqet9RwHATPrC73pFnMgWe9Zp9hgDY0Ti7PWXBjtb4gLLOpaGh/UjiHo7ctmyUezKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj",
+  "projectFilePath": "C:\\Users\\joaow\\Source\\Repos\\JoaoWitu22\\My_Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaow\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\joaow\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -80,6 +80,29 @@ namespace Helpers.connection
             save.deleteInsert();
         }
 
+        public static void deleteObject(Connection con, object obj, string table)
+        {
+            DBSave save = new DBSave(con, table);
+            foreach (PropertyInfo prop in obj.GetType().GetProperties())
+            {
+                if (prop.GetCustomAttributes(true).Length > 0)
+                {
+                    if (prop.GetCustomAttributes().FirstOrDefault().GetType() == typeof(KeyAttribute))
+                    {
+                        save.addKey(prop.Name.ToLower(), prop.GetValue(obj, null));
+                    }
+                    else if (prop.GetCustomAttributes().FirstOrDefault().GetType() == typeof(SaveAttribute))
+                    {
+                        if (prop.GetValue(obj, null) != null)
+                        {
+                            save.addPar(prop.Name.ToLower(), prop.GetValue(obj, null));
+                        }
+                    }
+                }
+            }
+            save.delete();
+        }
+
         public static void saveObject(Connection con, object obj, string table, bool exists)
         {
             DBSave save = new DBSave(con, table);

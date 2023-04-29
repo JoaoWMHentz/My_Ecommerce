@@ -2647,11 +2647,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\ApiEcommerce\\ApiEcommerce.csproj",
+      "projectUniqueName": "C:\\Users\\joaow\\Source\\Repos\\JoaoWitu22\\My_Ecommerce\\PatoEcommerce\\ApiEcommerce\\ApiEcommerce.csproj",
       "projectName": "ApiEcommerce",
-      "projectPath": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\ApiEcommerce\\ApiEcommerce.csproj",
+      "projectPath": "C:\\Users\\joaow\\Source\\Repos\\JoaoWitu22\\My_Ecommerce\\PatoEcommerce\\ApiEcommerce\\ApiEcommerce.csproj",
       "packagesPath": "C:\\Users\\joaow\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\ApiEcommerce\\obj\\",
+      "outputPath": "C:\\Users\\joaow\\Source\\Repos\\JoaoWitu22\\My_Ecommerce\\PatoEcommerce\\ApiEcommerce\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joaow\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2668,11 +2668,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\EcommerceDLL\\EcommerceDLL.csproj": {
-              "projectPath": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\EcommerceDLL\\EcommerceDLL.csproj"
+            "C:\\Users\\joaow\\Source\\Repos\\JoaoWitu22\\My_Ecommerce\\PatoEcommerce\\EcommerceDLL\\EcommerceDLL.csproj": {
+              "projectPath": "C:\\Users\\joaow\\Source\\Repos\\JoaoWitu22\\My_Ecommerce\\PatoEcommerce\\EcommerceDLL\\EcommerceDLL.csproj"
             },
-            "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj": {
-              "projectPath": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj"
+            "C:\\Users\\joaow\\Source\\Repos\\JoaoWitu22\\My_Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj": {
+              "projectPath": "C:\\Users\\joaow\\Source\\Repos\\JoaoWitu22\\My_Ecommerce\\PatoEcommerce\\Helpers\\Helpers.csproj"
             }
           }
         }
@@ -2705,7 +2705,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

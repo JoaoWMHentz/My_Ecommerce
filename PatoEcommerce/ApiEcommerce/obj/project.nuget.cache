@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wlcNzd099NhqNsFWgStewo87+g8X9J/HdgYE2mXn85sVw9FAVnml3/ADUBkf0n4mOzTr5UeurqpAQun03MACTw==",
+  "dgSpecHash": "6GYN2xlPYQavcrxmHiX/YAvVljMcuCQP2duLxlUmSCUxAgTR0bji2RMHfukj/Shr/xPlibc32mId2pR7sTIJeg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joaow\\Documents\\Projetos\\Ecommerce\\My_Ecommerce\\PatoEcommerce\\ApiEcommerce\\ApiEcommerce.csproj",
+  "projectFilePath": "C:\\Users\\joaow\\Source\\Repos\\JoaoWitu22\\My_Ecommerce\\PatoEcommerce\\ApiEcommerce\\ApiEcommerce.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaow\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\joaow\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
