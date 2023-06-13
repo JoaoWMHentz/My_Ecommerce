@@ -64,16 +64,16 @@ namespace Helpers.connection
             {
                 if (prop.GetCustomAttributes(true).Length > 0)
                 {
-                    if (prop.GetCustomAttributes().FirstOrDefault().GetType() == typeof(KeyAttribute))
+                    if (prop.GetCustomAttributes().ToList().Contains(new KeyAttribute()))
                     {
                         save.addKey(prop.Name.ToLower(), prop.GetValue(obj, null));
                     }
-                    else if (prop.GetCustomAttributes().FirstOrDefault().GetType() == typeof(SaveAttribute))
+                    else if (prop.GetCustomAttributes().ToList().Contains(new SaveAttribute()))
                     {
                         if (prop.GetValue(obj, null) != null)
                         {
                             save.addPar(prop.Name.ToLower(), prop.GetValue(obj, null));
-                        }
+                        } 
                     }
                 }
             }
@@ -87,11 +87,11 @@ namespace Helpers.connection
             {
                 if (prop.GetCustomAttributes(true).Length > 0)
                 {
-                    if (prop.GetCustomAttributes().FirstOrDefault().GetType() == typeof(KeyAttribute))
+                    if (prop.GetCustomAttributes().ToList().Contains(new KeyAttribute()))
                     {
                         save.addKey(prop.Name.ToLower(), prop.GetValue(obj, null));
                     }
-                    else if (prop.GetCustomAttributes().FirstOrDefault().GetType() == typeof(SaveAttribute))
+                    else if (prop.GetCustomAttributes().ToList().Contains(new SaveAttribute()))
                     {
                         if (prop.GetValue(obj, null) != null)
                         {

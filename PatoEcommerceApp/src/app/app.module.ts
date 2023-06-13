@@ -10,7 +10,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
-import { TooltipModule } from 'ngx-bootstrap/tooltip';
 @NgModule({
   declarations: [
     AppComponent,
