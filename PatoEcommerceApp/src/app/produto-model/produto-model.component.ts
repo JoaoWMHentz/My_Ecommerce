@@ -8,11 +8,11 @@ import { ProductService } from '../../Services/Product/ProductService';
 })
 export class ProdutoModelComponent implements OnInit {
 
-  t:  string = "data:image/png;base64,"
+  photo:  string = "data:image/png;base64,"
   source: Array<Product> = [];
   constructor(private service: ProductService) {
   }
-  
+
   ngOnInit(): void {
     this.service.GetProduct().subscribe(products => {
       this.source = products; console.log(products)

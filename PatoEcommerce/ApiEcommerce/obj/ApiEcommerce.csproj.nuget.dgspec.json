@@ -76,7 +76,7 @@
         "projectName": "EcommerceDLL",
         "projectPath": "C:\\Users\\joaow\\Source\\Repos\\JoaoWitu22\\My_Ecommerce\\PatoEcommerce\\EcommerceDLL\\EcommerceDLL.csproj",
         "packagesPath": "C:\\Users\\joaow\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joaow\\source\\repos\\JoaoWitu22\\My_Ecommerce\\PatoEcommerce\\EcommerceDLL\\obj\\",
+        "outputPath": "C:\\Users\\joaow\\Source\\Repos\\JoaoWitu22\\My_Ecommerce\\PatoEcommerce\\EcommerceDLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joaow\\AppData\\Roaming\\NuGet\\NuGet.Config",

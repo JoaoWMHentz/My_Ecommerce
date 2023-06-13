@@ -1,7 +1,7 @@
 <div id="Border">
     <div id="Logo" class="DivNav">
         <a routerLink="Products">
-            <img id="Logo1" src="../../assets/Logos/LogoSemTexto.png" height="40" width="40">
+            <img id="Logo1" src="../../assets/Logos/LogoSemTexto.png" height="40" width="40"/>
         </a>
         <h3 id="Logo2">Commerce</h3>
     </div>
@@ -12,7 +12,7 @@
     <div id="Rigth" class="DivNav">
         <ul>
                 <a routerLink="login" id="BtnMinhaConta" class="btnNav">Minha Conta</a>
-                <a id="BtnMeusAnucios" class="btnNav">Anunciar</a>
+                <a routerLink="anunciar" id="BtnMeusAnucios" class="btnNav">Anunciar</a>
                 <button id="BtnCategorias" (click)="show = !show" class="btnNav">Categorias<span></span></button>
         </ul>
     </div>
@@ -25,4 +25,4 @@
         <app-categoria name="Software" img="../../assets/Tests/software.png"></app-categoria>
     </div>
 </div>
-<app-product-detail></app-product-detail>
+<router-outlet></router-outlet>
