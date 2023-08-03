@@ -1,0 +1,34 @@
+.TextoAnuncio{
+    font-size: small;
+    text-align: center;
+}
+.CorpoAnuncio {
+    padding: 10px;
+}
+.CardAnuncio {
+    background-color: white;
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 23px;
+}
+
+#Card :hover{
+    filter: brightness(95%);
+
+}
+
+#ProductCards{
+    margin-left: 4vmax;
+    margin-right: 4vmax;
+    margin-top: 3vmax;
+}
+
+.PriceAndBtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ProductTitle{
+    margin-top: 100px
+}

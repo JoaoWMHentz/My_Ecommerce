@@ -1,0 +1,17 @@
+<div class="BoxLogin">
+    <form class="FrmLogin" [formGroup]="formulario" (ngSubmit)="onSubmit()">
+        <div class="LoginSeparator">
+            <h2>Fazer Login</h2>
+        </div>
+        <div class="LoginSeparator">
+            <input type="email" id="inputEmail" class="BlueTxt" placeholder="Email" formControlName="UserId">
+        </div>
+        <div class="LoginSeparator">
+            <input type="password" id="inputPassword" class="BlueTxt" placeholder="Senha" formControlName="Password">
+        </div>
+        <div class="LoginSeparator">
+            <button class="btnBlue" type="submit" [disabled]="!formulario.valid">Entrar</button>
+            <button class="btnBlue">Criar conta</button>
+        </div>
+    </form>
+</div>
