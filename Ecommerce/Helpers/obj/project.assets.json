@@ -2570,9 +2570,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\Helpers.csproj",
-      "projectName": "Helpers",
-      "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\Helpers.csproj",
+      "projectUniqueName": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\Ecommerce.Infrastructure.csproj",
+      "projectName": "Ecommerce.Infrastructure",
+      "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\Ecommerce.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\joaow\\.nuget\\packages\\",
       "outputPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\obj\\",
       "projectStyle": "PackageReference",

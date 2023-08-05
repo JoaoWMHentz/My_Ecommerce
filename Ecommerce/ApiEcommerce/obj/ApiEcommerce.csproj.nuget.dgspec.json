@@ -29,8 +29,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\EcommerceDLL.csproj": {
-                "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\EcommerceDLL.csproj"
+              "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\ApiEcommerce.Domain.csproj": {
+                "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\ApiEcommerce.Domain.csproj"
               },
               "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\Helpers.csproj": {
                 "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\Helpers.csproj"
@@ -70,12 +70,12 @@
         }
       }
     },
-    "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\EcommerceDLL.csproj": {
+    "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\ApiEcommerce.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\EcommerceDLL.csproj",
-        "projectName": "EcommerceDLL",
-        "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\EcommerceDLL.csproj",
+        "projectUniqueName": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\ApiEcommerce.Domain.csproj",
+        "projectName": "ApiEcommerce.Domain",
+        "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\ApiEcommerce.Domain.csproj",
         "packagesPath": "C:\\Users\\joaow\\.nuget\\packages\\",
         "outputPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\obj\\",
         "projectStyle": "PackageReference",

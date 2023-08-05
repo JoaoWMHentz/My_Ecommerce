@@ -1599,33 +1599,33 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "EcommerceDLL/1.0.0": {
+      "Ecommerce.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Helpers": "1.0.0",
+          "Ecommerce.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.9",
           "Microsoft.IdentityModel.Tokens": "6.26.1",
           "System.IdentityModel.Tokens.Jwt": "6.26.1"
         },
         "compile": {
-          "bin/placeholder/EcommerceDLL.dll": {}
+          "bin/placeholder/Ecommerce.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/EcommerceDLL.dll": {}
+          "bin/placeholder/Ecommerce.Domain.dll": {}
         }
       },
-      "Helpers/1.0.0": {
+      "Ecommerce.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
-          "bin/placeholder/Helpers.dll": {}
+          "bin/placeholder/Ecommerce.Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Helpers.dll": {}
+          "bin/placeholder/Ecommerce.Infrastructure.dll": {}
         }
       }
     }
@@ -5703,21 +5703,21 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "EcommerceDLL/1.0.0": {
+    "Ecommerce.Domain/1.0.0": {
       "type": "project",
-      "path": "../EcommerceDLL/EcommerceDLL.csproj",
-      "msbuildProject": "../EcommerceDLL/EcommerceDLL.csproj"
+      "path": "../EcommerceDLL/Ecommerce.Domain.csproj",
+      "msbuildProject": "../EcommerceDLL/Ecommerce.Domain.csproj"
     },
-    "Helpers/1.0.0": {
+    "Ecommerce.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../Helpers/Helpers.csproj",
-      "msbuildProject": "../Helpers/Helpers.csproj"
+      "path": "../Helpers/Ecommerce.Infrastructure.csproj",
+      "msbuildProject": "../Helpers/Ecommerce.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "EcommerceDLL >= 1.0.0",
-      "Helpers >= 1.0.0",
+      "Ecommerce.Domain >= 1.0.0",
+      "Ecommerce.Infrastructure >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.3.0",
@@ -5731,9 +5731,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Tests\\Tests.csproj",
-      "projectName": "Tests",
-      "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Tests\\Tests.csproj",
+      "projectUniqueName": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Tests\\Ecommerce.Tests.csproj",
+      "projectName": "Ecommerce.Tests",
+      "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Tests\\Ecommerce.Tests.csproj",
       "packagesPath": "C:\\Users\\joaow\\.nuget\\packages\\",
       "outputPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Tests\\obj\\",
       "projectStyle": "PackageReference",
@@ -5752,11 +5752,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\EcommerceDLL.csproj": {
-              "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\EcommerceDLL.csproj"
+            "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\Ecommerce.Domain.csproj": {
+              "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\Ecommerce.Domain.csproj"
             },
-            "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\Helpers.csproj": {
-              "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\Helpers.csproj"
+            "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\Ecommerce.Infrastructure.csproj": {
+              "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\Ecommerce.Infrastructure.csproj"
             }
           }
         }

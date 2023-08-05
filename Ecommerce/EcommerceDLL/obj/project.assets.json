@@ -801,17 +801,17 @@
           }
         }
       },
-      "Helpers/1.0.0": {
+      "Ecommerce.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.Data.SqlClient": "5.0.1"
         },
         "compile": {
-          "bin/placeholder/Helpers.dll": {}
+          "bin/placeholder/Ecommerce.Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Helpers.dll": {}
+          "bin/placeholder/Ecommerce.Infrastructure.dll": {}
         }
       }
     }
@@ -2608,15 +2608,15 @@
         "version.txt"
       ]
     },
-    "Helpers/1.0.0": {
+    "Ecommerce.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../Helpers/Helpers.csproj",
-      "msbuildProject": "../Helpers/Helpers.csproj"
+      "path": "../Helpers/Ecommerce.Infrastructure.csproj",
+      "msbuildProject": "../Helpers/Ecommerce.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Helpers >= 1.0.0",
+      "Ecommerce.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.9",
       "Microsoft.IdentityModel.Tokens >= 6.26.1",
       "System.IdentityModel.Tokens.Jwt >= 6.26.1"
@@ -2628,9 +2628,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\EcommerceDLL.csproj",
-      "projectName": "EcommerceDLL",
-      "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\EcommerceDLL.csproj",
+      "projectUniqueName": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\Ecommerce.Domain.csproj",
+      "projectName": "Ecommerce.Domain",
+      "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\Ecommerce.Domain.csproj",
       "packagesPath": "C:\\Users\\joaow\\.nuget\\packages\\",
       "outputPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\obj\\",
       "projectStyle": "PackageReference",
@@ -2649,8 +2649,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\Helpers.csproj": {
-              "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\Helpers.csproj"
+            "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\Ecommerce.Infrastructure.csproj": {
+              "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\Ecommerce.Infrastructure.csproj"
             }
           }
         }

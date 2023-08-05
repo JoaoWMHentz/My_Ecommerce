@@ -1,0 +1,15 @@
+D:\Repositorios\Github\My_Ecommerce\Ecommerce\EcommerceDLL\bin\Debug\net6.0\Ecommerce.Domain.deps.json
+D:\Repositorios\Github\My_Ecommerce\Ecommerce\EcommerceDLL\bin\Debug\net6.0\Ecommerce.Domain.dll
+D:\Repositorios\Github\My_Ecommerce\Ecommerce\EcommerceDLL\bin\Debug\net6.0\Ecommerce.Domain.pdb
+D:\Repositorios\Github\My_Ecommerce\Ecommerce\EcommerceDLL\bin\Debug\net6.0\Ecommerce.Infrastructure.dll
+D:\Repositorios\Github\My_Ecommerce\Ecommerce\EcommerceDLL\bin\Debug\net6.0\Ecommerce.Infrastructure.pdb
+D:\Repositorios\Github\My_Ecommerce\Ecommerce\EcommerceDLL\obj\Debug\net6.0\Ecommerce.Domain.csproj.AssemblyReference.cache
+D:\Repositorios\Github\My_Ecommerce\Ecommerce\EcommerceDLL\obj\Debug\net6.0\Ecommerce.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositorios\Github\My_Ecommerce\Ecommerce\EcommerceDLL\obj\Debug\net6.0\Ecommerce.Domain.AssemblyInfoInputs.cache
+D:\Repositorios\Github\My_Ecommerce\Ecommerce\EcommerceDLL\obj\Debug\net6.0\Ecommerce.Domain.AssemblyInfo.cs
+D:\Repositorios\Github\My_Ecommerce\Ecommerce\EcommerceDLL\obj\Debug\net6.0\Ecommerce.Domain.csproj.CoreCompileInputs.cache
+D:\Repositorios\Github\My_Ecommerce\Ecommerce\EcommerceDLL\obj\Debug\net6.0\Ecommerce.Domain.csproj.CopyComplete
+D:\Repositorios\Github\My_Ecommerce\Ecommerce\EcommerceDLL\obj\Debug\net6.0\Ecommerce.Domain.dll
+D:\Repositorios\Github\My_Ecommerce\Ecommerce\EcommerceDLL\obj\Debug\net6.0\refint\Ecommerce.Domain.dll
+D:\Repositorios\Github\My_Ecommerce\Ecommerce\EcommerceDLL\obj\Debug\net6.0\Ecommerce.Domain.pdb
+D:\Repositorios\Github\My_Ecommerce\Ecommerce\EcommerceDLL\obj\Debug\net6.0\ref\Ecommerce.Domain.dll
