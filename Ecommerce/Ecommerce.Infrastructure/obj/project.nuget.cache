@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Eh1yJgRrpM36MuYySlVz6CH8opS+PWpPoWDpU8k9DvnuGkeQEhzpGjNGbIZuXDyRetrjigs9FYFxfpS574ovDQ==",
+  "dgSpecHash": "gZNxQMbT+sYqU0flSEU4wPHEZOL1tXhLMo8N0/+A+32s/VVPj2r/0qI+2U9aGtCSfSfsbOhZs7OkvACYAWLYbw==",
   "success": true,
-  "projectFilePath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\Ecommerce.Infrastructure.csproj",
+  "projectFilePath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaow\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\joaow\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

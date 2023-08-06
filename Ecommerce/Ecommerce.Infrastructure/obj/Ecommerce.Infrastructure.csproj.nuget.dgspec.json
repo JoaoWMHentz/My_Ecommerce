@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\Ecommerce.Infrastructure.csproj": {}
+    "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\Ecommerce.Infrastructure.csproj": {
+    "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\Ecommerce.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj",
         "projectName": "Ecommerce.Infrastructure",
-        "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\Ecommerce.Infrastructure.csproj",
+        "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\joaow\\.nuget\\packages\\",
-        "outputPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\obj\\",
+        "outputPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Ecommerce.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joaow\\AppData\\Roaming\\NuGet\\NuGet.Config",

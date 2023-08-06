@@ -5705,13 +5705,13 @@
     },
     "Ecommerce.Domain/1.0.0": {
       "type": "project",
-      "path": "../EcommerceDLL/Ecommerce.Domain.csproj",
-      "msbuildProject": "../EcommerceDLL/Ecommerce.Domain.csproj"
+      "path": "../Ecommerce.Domain/Ecommerce.Domain.csproj",
+      "msbuildProject": "../Ecommerce.Domain/Ecommerce.Domain.csproj"
     },
     "Ecommerce.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../Helpers/Ecommerce.Infrastructure.csproj",
-      "msbuildProject": "../Helpers/Ecommerce.Infrastructure.csproj"
+      "path": "../Ecommerce.Infrastructure/Ecommerce.Infrastructure.csproj",
+      "msbuildProject": "../Ecommerce.Infrastructure/Ecommerce.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5731,11 +5731,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Tests\\Ecommerce.Tests.csproj",
+      "projectUniqueName": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Ecommerce.Tests\\Ecommerce.Tests.csproj",
       "projectName": "Ecommerce.Tests",
-      "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Tests\\Ecommerce.Tests.csproj",
+      "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Ecommerce.Tests\\Ecommerce.Tests.csproj",
       "packagesPath": "C:\\Users\\joaow\\.nuget\\packages\\",
-      "outputPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Tests\\obj\\",
+      "outputPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Ecommerce.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joaow\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5752,11 +5752,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\Ecommerce.Domain.csproj": {
-              "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\Ecommerce.Domain.csproj"
+            "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
+              "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj"
             },
-            "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\Ecommerce.Infrastructure.csproj": {
-              "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\Ecommerce.Infrastructure.csproj"
+            "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj": {
+              "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj"
             }
           }
         }

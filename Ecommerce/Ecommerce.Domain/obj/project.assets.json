@@ -2610,8 +2610,8 @@
     },
     "Ecommerce.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../Helpers/Ecommerce.Infrastructure.csproj",
-      "msbuildProject": "../Helpers/Ecommerce.Infrastructure.csproj"
+      "path": "../Ecommerce.Infrastructure/Ecommerce.Infrastructure.csproj",
+      "msbuildProject": "../Ecommerce.Infrastructure/Ecommerce.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2628,11 +2628,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\Ecommerce.Domain.csproj",
+      "projectUniqueName": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
       "projectName": "Ecommerce.Domain",
-      "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\Ecommerce.Domain.csproj",
+      "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
       "packagesPath": "C:\\Users\\joaow\\.nuget\\packages\\",
-      "outputPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\EcommerceDLL\\obj\\",
+      "outputPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Ecommerce.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joaow\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2649,8 +2649,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\Ecommerce.Infrastructure.csproj": {
-              "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Helpers\\Ecommerce.Infrastructure.csproj"
+            "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj": {
+              "projectPath": "D:\\Repositorios\\Github\\My_Ecommerce\\Ecommerce\\Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj"
             }
           }
         }
